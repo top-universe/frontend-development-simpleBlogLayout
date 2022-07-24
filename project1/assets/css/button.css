@@ -1,0 +1,12 @@
+.primary {
+    height: 58px;
+    min-width: 200px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    font-size: 30px;
+    font-weight: 600;
+    border: 2px solid white;
+}

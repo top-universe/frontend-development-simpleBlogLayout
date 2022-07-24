@@ -1,0 +1,50 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: ; */
+}
+
+section {
+    width: 75%;
+    margin: 0 auto;
+}
+
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+.blog {
+
+}
+
+.blog-heading {
+    font-family: 'New York Extra Large';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%;
+    text-align: center;
+    color: #000000;
+    margin-top: 44px;
+    margin-bottom: 32px;
+}
+
+
+.blog-grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    place-items: center;
+    justify-content: center;
+}
+
+.blog-grid-container-children {
+    flex-basis: 250px;
+}
+
+.blog-grid-container-children h3 {
+    text-align: center;
+    margin-top: 15px;
+}
